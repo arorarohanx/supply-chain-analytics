@@ -18,6 +18,7 @@ import streamlit as st
 import pandas as pd
 import sqlite3
 import plotly.express as px
+import gdown
 
 from pathlib import Path
 
@@ -73,44 +74,93 @@ div[data-testid="stPlotlyChart"] {
 """, unsafe_allow_html=True)
 
 
+
 # ============================================================
 # SECTION 4: PROJECT AND DATABASE PATH
 # ============================================================
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-DB_PATH = BASE_DIR / "data" / "processed" / "supply_chain.db"
+# Local database path (your computer)
+LOCAL_DB_PATH = (
+    BASE_DIR / "data" / "processed" / "supply_chain.db"
+)
+
+# Cloud database path (Streamlit server)
+CLOUD_DB_PATH = Path("/tmp/supply_chain.db")
 
 
 # ============================================================
-# SECTION 5: LOAD DATA FROM SQLITE
+# SECTION 5: LOAD DATABASE FROM LOCAL OR GOOGLE DRIVE
 # ============================================================
 
-@st.cache_data
-def load_data():
+def get_database_path():
 
-    if not DB_PATH.exists():
-        raise FileNotFoundError(
-            f"Database not found: {DB_PATH}"
+    # OPTION 1: Use local database if available
+    if LOCAL_DB_PATH.exists():
+        return str(LOCAL_DB_PATH)
+
+    # OPTION 2: Use previously downloaded cloud database
+    if CLOUD_DB_PATH.exists() and CLOUD_DB_PATH.stat().st_size > 0:
+        return str(CLOUD_DB_PATH)
+
+    # OPTION 3: Download database from Google Drive
+    try:
+
+        file_id = st.secrets["1Oz1xPlwFdCqiz-XaE6vZV5g4ypJI5-xx"]
+
+        downloaded_file = gdown.download(
+            id=file_id,
+            output=str(CLOUD_DB_PATH),
+            quiet=False
         )
 
-    connection = sqlite3.connect(DB_PATH)
+        if (
+            downloaded_file is None
+            or not CLOUD_DB_PATH.exists()
+            or CLOUD_DB_PATH.stat().st_size == 0
+        ):
+            raise RuntimeError("Google Drive database download failed.")
+
+        return str(CLOUD_DB_PATH)
+
+    except Exception as error:
+
+        if CLOUD_DB_PATH.exists():
+            CLOUD_DB_PATH.unlink()
+
+        st.error(f"Database loading failed: {error}")
+        st.stop()
+
+
+@st.cache_data
+def load_data(database_path):
+
+    connection = sqlite3.connect(database_path)
 
     try:
+
         data = pd.read_sql_query(
             "SELECT * FROM supply_chain",
             connection
         )
+
     finally:
+
         connection.close()
 
     return data
 
 
+# Load database and data
 try:
-    df = load_data()
+
+    DB_PATH = get_database_path()
+
+    df = load_data(DB_PATH)
 
 except Exception as error:
+
     st.error(f"Unable to load database: {error}")
     st.stop()
 
