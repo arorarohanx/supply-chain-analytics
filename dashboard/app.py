@@ -1010,8 +1010,6 @@ st.markdown(
 
     **SupplyChain Insights**
 
-    Data Analytics Project | Python | SQL | Streamlit | Plotly
-
     Data Source: DataCo Smart Supply Chain Dataset
 
     </div>
