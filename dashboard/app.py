@@ -107,7 +107,7 @@ def get_database_path():
     # OPTION 3: Download database from Google Drive
     try:
 
-        file_id = st.secrets["1Oz1xPlwFdCqiz-XaE6vZV5g4ypJI5-xx"]
+        file_id = st.secrets["GDRIVE_FILE_ID"]
 
         downloaded_file = gdown.download(
             id=file_id,
