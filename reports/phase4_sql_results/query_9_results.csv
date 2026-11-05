@@ -1,0 +1,5 @@
+shipping_mode,total_records,avg_actual_shipping_days,avg_scheduled_shipping_days,avg_shipping_delay_days
+Second Class,33806,3.99,2.0,1.99
+First Class,26513,2.0,1.0,1.0
+Same Day,9293,0.48,0.0,0.48
+Standard Class,103153,3.99,4.0,-0.01

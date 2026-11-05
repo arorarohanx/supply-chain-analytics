@@ -1,0 +1,200 @@
+Category Name,Shipping Mode,total_records,late_records,late_delivery_rate
+Accessories,First Class,278,278,100.0
+As Seen on  TV!,First Class,9,9,100.0
+Books ,First Class,53,53,100.0
+Basketball,First Class,13,13,100.0
+Basketball,Second Class,10,10,100.0
+Baseball & Softball,First Class,103,103,100.0
+Baby ,First Class,33,33,100.0
+Consumer Electronics,First Class,58,58,100.0
+Crafts,First Class,79,79,100.0
+Electronics,First Class,470,470,100.0
+DVDs,First Class,58,58,100.0
+Cleats,First Class,3583,3583,100.0
+Camping & Hiking,First Class,1960,1960,100.0
+CDs ,First Class,42,42,100.0
+Boxing & MMA,First Class,61,61,100.0
+Cameras ,First Class,144,144,100.0
+Computers,First Class,53,53,100.0
+Children's Clothing,First Class,72,72,100.0
+Cardio Equipment,First Class,1841,1841,100.0
+Trade-In,First Class,137,137,100.0
+Video Games,First Class,91,91,100.0
+Toys,First Class,81,81,100.0
+Indoor/Outdoor Games,First Class,2772,2772,100.0
+Golf Shoes,First Class,77,77,100.0
+Health and Beauty,First Class,62,62,100.0
+Hunting & Shooting,First Class,55,55,100.0
+Hockey,First Class,96,96,100.0
+Lacrosse,First Class,51,51,100.0
+Men's Clothing,First Class,36,36,100.0
+Kids' Golf Clubs,First Class,50,50,100.0
+Golf Gloves,First Class,154,154,100.0
+Golf Apparel,First Class,57,57,100.0
+Golf Bags & Carts,First Class,19,19,100.0
+Golf Bags & Carts,Same Day,1,1,100.0
+Golf Balls,First Class,203,203,100.0
+Garden,First Class,73,73,100.0
+Girls' Apparel,First Class,190,190,100.0
+Fitness Accessories,First Class,48,48,100.0
+Tennis & Racquet,First Class,49,49,100.0
+Men's Footwear,First Class,3206,3206,100.0
+Men's Golf Clubs,First Class,32,32,100.0
+Pet Supplies,First Class,81,81,100.0
+Music,First Class,70,70,100.0
+Sporting Goods,First Class,57,57,100.0
+Strength Training,First Class,14,14,100.0
+Soccer,First Class,15,15,100.0
+Shop By Sport,First Class,1649,1649,100.0
+Water Sports,First Class,2304,2304,100.0
+Women's Apparel,First Class,3186,3186,100.0
+Women's Golf Clubs,First Class,25,25,100.0
+Women's Clothing,First Class,85,85,100.0
+Fishing,First Class,2578,2578,100.0
+As Seen on  TV!,Second Class,14,13,92.85714285714286
+Fitness Accessories,Second Class,56,50,89.28571428571429
+Golf Shoes,Second Class,103,90,87.37864077669903
+Kids' Golf Clubs,Second Class,58,50,86.20689655172413
+Strength Training,Second Class,21,18,85.71428571428571
+Consumer Electronics,Second Class,97,83,85.56701030927834
+Sporting Goods,Second Class,65,55,84.61538461538461
+Garden,Second Class,83,70,84.33734939759037
+Hockey,Second Class,87,73,83.9080459770115
+Golf Balls,Second Class,271,226,83.39483394833948
+Golf Gloves,Second Class,204,169,82.84313725490196
+Computers,Second Class,69,57,82.6086956521739
+Lacrosse,Second Class,68,56,82.35294117647058
+Accessories,Second Class,346,283,81.79190751445087
+Cameras ,Second Class,109,89,81.65137614678899
+Trade-In,Second Class,204,166,81.37254901960785
+Electronics,Second Class,576,468,81.25
+Girls' Apparel,Second Class,212,172,81.13207547169812
+Health and Beauty,Second Class,63,51,80.95238095238095
+Baseball & Softball,Second Class,131,106,80.91603053435115
+Children's Clothing,Second Class,138,111,80.43478260869566
+Fishing,Second Class,3189,2562,80.33866415804327
+Shop By Sport,Second Class,2078,1669,80.31761308950914
+Women's Clothing,Second Class,147,118,80.27210884353741
+Music,Second Class,81,65,80.24691358024691
+Cleats,Second Class,4634,3712,80.10358221838585
+Men's Clothing,Second Class,30,24,80.0
+Indoor/Outdoor Games,Second Class,3595,2870,79.83310152990263
+Pet Supplies,Second Class,114,91,79.82456140350878
+Men's Footwear,Second Class,4222,3370,79.81999052581715
+Water Sports,Second Class,2980,2373,79.63087248322148
+Cardio Equipment,Second Class,2300,1825,79.34782608695652
+Boxing & MMA,Second Class,91,72,79.12087912087912
+Women's Apparel,Second Class,3859,3050,79.03601969422131
+Women's Golf Clubs,Second Class,38,30,78.94736842105263
+Golf Apparel,Second Class,76,60,78.94736842105263
+Video Games,Second Class,171,135,78.94736842105263
+Crafts,Second Class,94,74,78.72340425531915
+Toys,Second Class,94,74,78.72340425531915
+DVDs,Same Day,14,11,78.57142857142857
+Camping & Hiking,Second Class,2576,2004,77.79503105590062
+Baby ,Second Class,27,21,77.77777777777779
+Hunting & Shooting,Second Class,85,66,77.64705882352942
+Golf Bags & Carts,Second Class,13,10,76.92307692307693
+DVDs,Second Class,85,65,76.47058823529412
+Tennis & Racquet,Second Class,68,52,76.47058823529412
+Books ,Same Day,42,32,76.19047619047619
+Soccer,Second Class,29,22,75.86206896551724
+Books ,Second Class,64,48,75.0
+Men's Golf Clubs,Second Class,48,35,72.91666666666666
+CDs ,Second Class,33,24,72.72727272727273
+Hunting & Shooting,Same Day,36,23,63.888888888888886
+Fitness Accessories,Same Day,13,8,61.53846153846154
+Pet Supplies,Same Day,38,23,60.526315789473685
+Lacrosse,Same Day,15,9,60.0
+Consumer Electronics,Same Day,32,18,56.25
+Baby ,Same Day,27,15,55.55555555555556
+Boxing & MMA,Same Day,28,15,53.57142857142857
+Garden,Same Day,28,15,53.57142857142857
+Girls' Apparel,Same Day,57,30,52.63157894736842
+Sporting Goods,Same Day,19,10,52.63157894736842
+Music,Same Day,21,11,52.38095238095239
+Baseball & Softball,Same Day,29,15,51.724137931034484
+Golf Shoes,Same Day,31,16,51.61290322580645
+Electronics,Same Day,165,85,51.515151515151516
+Women's Clothing,Same Day,37,19,51.35135135135135
+Hockey,Same Day,39,20,51.28205128205128
+Video Games,Same Day,45,23,51.11111111111111
+Strength Training,Same Day,4,2,50.0
+Men's Clothing,Same Day,10,5,50.0
+Golf Balls,Same Day,79,39,49.36708860759494
+Fishing,Same Day,828,407,49.15458937198068
+Indoor/Outdoor Games,Same Day,1040,511,49.13461538461538
+Accessories,Same Day,84,41,48.80952380952381
+Shop By Sport,Same Day,572,275,48.07692307692308
+Women's Apparel,Same Day,1068,512,47.940074906367045
+Camping & Hiking,Same Day,707,338,47.80763790664781
+Men's Footwear,Same Day,1129,534,47.29849424269265
+Cleats,Same Day,1297,607,46.80030840400925
+Lacrosse,Standard Class,195,90,46.15384615384615
+Water Sports,Same Day,820,377,45.97560975609756
+Cardio Equipment,Same Day,630,289,45.87301587301587
+Trade-In,Same Day,40,18,45.0
+CDs ,Same Day,18,8,44.44444444444444
+Golf Gloves,Same Day,57,25,43.859649122807014
+Tennis & Racquet,Standard Class,181,78,43.0939226519337
+Strength Training,Standard Class,70,30,42.857142857142854
+Golf Bags & Carts,Standard Class,28,12,42.857142857142854
+Kids' Golf Clubs,Standard Class,229,98,42.79475982532751
+Soccer,Standard Class,84,35,41.66666666666667
+Accessories,Standard Class,989,412,41.6582406471183
+Music,Standard Class,245,102,41.63265306122449
+Crafts,Standard Class,272,113,41.544117647058826
+Hunting & Shooting,Standard Class,248,103,41.53225806451613
+Video Games,Standard Class,497,206,41.4486921529175
+DVDs,Standard Class,302,125,41.390728476821195
+Books ,Standard Class,232,96,41.37931034482759
+Golf Gloves,Standard Class,614,254,41.36807817589577
+Electronics,Standard Class,1813,747,41.20242691671263
+Toys,Standard Class,309,127,41.10032362459547
+Trade-In,Standard Class,545,221,40.550458715596335
+Boxing & MMA,Standard Class,222,90,40.54054054054054
+Health and Beauty,Standard Class,208,84,40.38461538461539
+Camping & Hiking,Standard Class,7914,3185,40.24513520343695
+Girls' Apparel,Standard Class,678,272,40.117994100294986
+Women's Clothing,Standard Class,362,145,40.055248618784525
+Children's Clothing,Standard Class,387,155,40.05167958656331
+Children's Clothing,Same Day,25,10,40.0
+Cameras ,Same Day,20,8,40.0
+As Seen on  TV!,Standard Class,40,16,40.0
+Cleats,Standard Class,14000,5594,39.957142857142856
+Indoor/Outdoor Games,Standard Class,11063,4412,39.88068335894423
+Pet Supplies,Standard Class,239,95,39.74895397489539
+Garden,Standard Class,282,112,39.71631205673759
+Cardio Equipment,Standard Class,7177,2850,39.710185314198135
+Fishing,Standard Class,10000,3969,39.69
+Shop By Sport,Standard Class,6216,2465,39.655727155727156
+Golf Balls,Standard Class,850,337,39.64705882352941
+Women's Golf Clubs,Standard Class,101,40,39.603960396039604
+Water Sports,Standard Class,8776,3463,39.45989061075661
+Men's Footwear,Standard Class,12706,5011,39.43806075869668
+CDs ,Standard Class,170,67,39.411764705882355
+Women's Apparel,Standard Class,12003,4728,39.39015246188453
+Men's Clothing,Standard Class,122,48,39.34426229508197
+Toys,Same Day,23,9,39.130434782608695
+Fitness Accessories,Standard Class,179,70,39.10614525139665
+Sporting Goods,Standard Class,195,76,38.97435897435898
+Computers,Standard Class,287,111,38.67595818815331
+Health and Beauty,Same Day,13,5,38.46153846153847
+Crafts,Same Day,13,5,38.46153846153847
+Hockey,Standard Class,366,140,38.25136612021858
+Golf Apparel,Same Day,21,8,38.095238095238095
+Golf Apparel,Standard Class,275,104,37.81818181818182
+Soccer,Same Day,8,3,37.5
+Golf Shoes,Standard Class,291,108,37.11340206185567
+Kids' Golf Clubs,Same Day,19,7,36.84210526315789
+Baseball & Softball,Standard Class,344,125,36.337209302325576
+Baby ,Standard Class,111,40,36.03603603603604
+Men's Golf Clubs,Standard Class,184,66,35.869565217391305
+Cameras ,Standard Class,289,103,35.6401384083045
+Consumer Electronics,Standard Class,222,79,35.585585585585584
+Basketball,Standard Class,41,14,34.146341463414636
+As Seen on  TV!,Same Day,3,1,33.33333333333333
+Women's Golf Clubs,Same Day,6,2,33.33333333333333
+Tennis & Racquet,Same Day,16,4,25.0
+Men's Golf Clubs,Same Day,10,2,20.0
+Computers,Same Day,16,3,18.75

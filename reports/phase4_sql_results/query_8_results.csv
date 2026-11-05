@@ -1,0 +1,24 @@
+order_status,delivery_status,total_records
+COMPLETE,Late delivery,34199
+PENDING_PAYMENT,Late delivery,22922
+COMPLETE,Advance shipping,14136
+PROCESSING,Late delivery,12503
+PENDING,Late delivery,11712
+COMPLETE,Shipping on time,11156
+CLOSED,Late delivery,11109
+PENDING_PAYMENT,Advance shipping,9588
+PENDING_PAYMENT,Shipping on time,7322
+ON_HOLD,Late delivery,5450
+PROCESSING,Advance shipping,5369
+PENDING,Advance shipping,4857
+CLOSED,Advance shipping,4809
+SUSPECTED_FRAUD,Shipping canceled,4062
+PROCESSING,Shipping on time,4030
+CLOSED,Shipping on time,3698
+CANCELED,Shipping canceled,3692
+PENDING,Shipping on time,3658
+ON_HOLD,Advance shipping,2413
+ON_HOLD,Shipping on time,1941
+PAYMENT_REVIEW,Late delivery,1082
+PAYMENT_REVIEW,Advance shipping,420
+PAYMENT_REVIEW,Shipping on time,391
